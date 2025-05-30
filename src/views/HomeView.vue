@@ -10,7 +10,7 @@
         <div>
           <img
             @click="gotoDetail(item.id)"
-            v-bind:src="'./src/components/images/' + item.image"
+            v-bind:src="'./src/assets/images/' + item.image"
             v-bind:alt="item.title"
             class="img-display"
           />
