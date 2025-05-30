@@ -15,14 +15,14 @@
         <div class="flex-container">
           <div>
             <img
-              v-bind:src="'../src/components/images/' + item.image"
+              v-bind:src="'../src/assets/images/' + item.image"
               v-bind:alt="item.title"
               class="img-display"
             />
           </div>
           <div v-if="item.author_image" class="author-image">
             <img
-              v-bind:src="'../src/components/images/' + item.author_image"
+              v-bind:src="'../src/assets/images/' + item.author_image"
               v-bind:alt="item.author"
               class="item-image"
             />
